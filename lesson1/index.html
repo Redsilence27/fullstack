@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <title>Ширина</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <style type="text/css">
+   DIV {
+    width: 50%; /* Ширина слоя */
+    margin: 0px; /* Значение отступов */
+    padding: 0px; /* Поля вокруг текста */
+    border: 0px solid #999999; /* Параметры границы */
+    background: red; /* Цвет фона */
+    height:100vh;
+    display: inline-block;
+    float:left;
+   }
+   body {
+    margin: 0px;
+    padding:0px;
+   }
+  </style>
+ </head>
+ <body>
+  <div style="background: red;" ></div>
+  <div style="background: green;" ></div>
+  <div style="background: grey; width: calc(100% / 3)" ></div>
+  <div style="background: yellow; width: calc(100% / 3)" ></div>
+  <div style="background: blue; width: calc(100% /3)" ></div>  
+  <div style="background: #7B68EE; width: 10pt" ></div>  
+  <div style="background: black; width: calc(100% - 10pt)" ></div> 
+ </body>
+</html>
